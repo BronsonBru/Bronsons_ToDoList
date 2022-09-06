@@ -10,11 +10,12 @@ import SwiftUI
 enum TaskFilter: String{
     
     static var allFilters: [TaskFilter]{
-        return [.NonCompleted, .Completed, .OverDue, .All]
+        return [.NonCompleted, .Completed, .OverDue, .All, .isArchived]
     }
     
     case All = "All"
     case NonCompleted = "To Do"
     case Completed = "Completed"
     case OverDue = "Overdue"
+    case isArchived = "Archived"
 }

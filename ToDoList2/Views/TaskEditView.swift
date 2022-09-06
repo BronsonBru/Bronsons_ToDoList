@@ -16,6 +16,7 @@ struct TaskEditView: View {
     @State var desc: String
     @State var dueDate: Date
     @State var scheduleTime: Bool
+   
     
     init(passedTaskItem: TaskItem?, initialDate: Date) {
         if let taskItem = passedTaskItem {
@@ -24,6 +25,7 @@ struct TaskEditView: View {
             _desc = State(initialValue: taskItem.desc ?? "")
             _dueDate = State(initialValue: taskItem.dueDate ?? initialDate)
             _scheduleTime = State(initialValue: taskItem.scheduleTime)
+//            _isArchived = State(initialValue: <#T##_#>)
         }
         else {
             _name = State(initialValue: "")
@@ -71,6 +73,7 @@ struct TaskEditView: View {
             selectedTaskItem?.name = name
             selectedTaskItem?.dueDate = dueDate
             selectedTaskItem?.scheduleTime = scheduleTime
+            
             
             dateHolder.saveContext(viewContext)
             self.presentationMode.wrappedValue.dismiss()
