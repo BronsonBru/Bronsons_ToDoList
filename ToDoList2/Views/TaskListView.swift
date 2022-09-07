@@ -94,7 +94,7 @@ struct TaskListView: View {
         
     }
     
-    private func filteredTaskItems() -> [TaskItem]{
+    func filteredTaskItems() -> [TaskItem]{
         if selectedFilter == TaskFilter.Completed{
             return dateHolder.taskItems.filter{ !$0.isArchived && $0.isCompleted()}
         }

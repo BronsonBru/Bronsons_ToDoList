@@ -22,6 +22,8 @@
 		CF5477D128B6336E00D2D98D /* DateScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5477D028B6336E00D2D98D /* DateScroller.swift */; };
 		CF5477D328B63F0400D2D98D /* TaskFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5477D228B63F0400D2D98D /* TaskFilter.swift */; };
 		CF5477D528BEABB600D2D98D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF5477D428BEABB600D2D98D /* LaunchScreen.storyboard */; };
+		E55150CB28C7B118002585E6 /* completionSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55150CA28C7B118002585E6 /* completionSummary.swift */; };
+		E55150CD28C8CDFD002585E6 /* contentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55150CC28C8CDFD002585E6 /* contentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		CF5477D028B6336E00D2D98D /* DateScroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateScroller.swift; sourceTree = "<group>"; };
 		CF5477D228B63F0400D2D98D /* TaskFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFilter.swift; sourceTree = "<group>"; };
 		CF5477D428BEABB600D2D98D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E55150CA28C7B118002585E6 /* completionSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = completionSummary.swift; sourceTree = "<group>"; };
+		E55150CC28C8CDFD002585E6 /* contentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				CF5477AF28B4FC4600D2D98D /* ToDoList2App.swift */,
+				E55150CC28C8CDFD002585E6 /* contentView.swift */,
 				CF5477C628B4FEB000D2D98D /* Views */,
 				CF5477CD28B53E2B00D2D98D /* Model */,
 				CF5477B328B4FC4700D2D98D /* Assets.xcassets */,
@@ -96,6 +101,7 @@
 			children = (
 				CF5477C428B4FEA400D2D98D /* TaskEditView.swift */,
 				CF5477B128B4FC4600D2D98D /* TaskListView.swift */,
+				E55150CA28C7B118002585E6 /* completionSummary.swift */,
 				CF5477D028B6336E00D2D98D /* DateScroller.swift */,
 				CF5477C228B4FE5700D2D98D /* FloatingButton.swift */,
 				CF5477C928B511D600D2D98D /* TaskCell.swift */,
@@ -189,9 +195,11 @@
 			files = (
 				CF5477C828B50EBE00D2D98D /* DateHolder.swift in Sources */,
 				CF5477CF28B53E5200D2D98D /* TaskItemExtension.swift in Sources */,
+				E55150CD28C8CDFD002585E6 /* contentView.swift in Sources */,
 				CF5477B928B4FC4700D2D98D /* Persistence.swift in Sources */,
 				CF5477B228B4FC4600D2D98D /* TaskListView.swift in Sources */,
 				CF5477D328B63F0400D2D98D /* TaskFilter.swift in Sources */,
+				E55150CB28C7B118002585E6 /* completionSummary.swift in Sources */,
 				CF5477C328B4FE5700D2D98D /* FloatingButton.swift in Sources */,
 				CF5477CC28B53D1A00D2D98D /* CheckBoxView.swift in Sources */,
 				CF5477CA28B511D600D2D98D /* TaskCell.swift in Sources */,
